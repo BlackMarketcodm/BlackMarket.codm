@@ -5,26 +5,26 @@
  * tournament results system needs a protected server, database, admin login and API.
  */
 const players = [
-  {name:"علی طالبی",playerNumber:"92839297",caseNumber:"9393874",birthYear:"1391",gender:"مرد",competitionType:"مولتی",rank:"2",prize:"26",totalScore:"27",kills:"12",wins:"1",games:"1",finalStatus:"برنده",notes:"افرین به تو",photo:"assets/gallery/photo_2026-04-21_10-21-09.jpg"},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
-  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""}
+  {name:"محمد حسین طالبی",playerNumber:"0315194324",caseNumber:"0315194324",birthYear:"1391",gender:"مرد",competitionType:"مولتی",rank:"1",prize:"10,800 CP",totalScore:"98", UID:"", NameGameCodm:"ƝoX MMD",kills:"36",wins:"1",games:"1",finalStatus:"برنده",notes:"آفرین به سازنده ی این سایت.",photo:"assets/gallery/photo_2026-04-21_10-21-09.jpg"},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
+  {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
 ];
 
 const pages = [...document.querySelectorAll('.page')];
@@ -100,7 +100,7 @@ searchForm.addEventListener('submit',e=>{
   },1350);
 });
 
-const identityFields=[['نام و نام خانوادگی','name'],['شماره پرونده','caseNumber'],['شماره بازیکن','playerNumber'],['سال تولد','birthYear'],['جنسیت','gender'],['نوع مسابقه','competitionType']];
+const identityFields=[['نام و نام خانوادگی','name'],['شماره پرونده','caseNumber'],['شماره بازیکن','playerNumber'],['سال تولد','birthYear'],['جنسیت','gender'],['یوآیدی','UID'],['اسم شما در بازی','NameGameCodm'],['نوع مسابقه','competitionType']];
 const statFields=[['رتبه در تورنمنت','rank'],['جایزه','prize'],['امتیاز کل تورنمنت','totalScore'],['کشته‌ها','kills'],['بردها','wins'],['بازی‌ها','games']];
 function safeText(value){return value===undefined||value===null||String(value).trim()===''?'—':String(value);}
 function renderCells(fields,record){return fields.map(([label,key])=>`<div class="report-cell"><span>${label}</span><strong>${escapeHTML(safeText(record[key]))}</strong></div>`).join('');}
