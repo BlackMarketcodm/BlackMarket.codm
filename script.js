@@ -5,7 +5,7 @@
  * tournament results system needs a protected server, database, admin login and API.
  */
 const players = [
-  {name:"محمد حسین طالبی",playerNumber:"0315194324",caseNumber:"0315194324",birthYear:"1391",gender:"مرد",UID:"7299400266281844737",Namegamecodm: "ƝoX MMD" ,competitionType:"مولتی",rank:"2",prize:"26",totalScore:"2,020",kills:"12",wins:"1",games:"2",finalStatus:"برنده",notes:"سازنده ی این سایت.",photo:"assets/gallery/photo_2026-04-21_10-21-09.jpg"},
+  {name:"علی طالبی",playerNumber:"92839297",caseNumber:"9393874",birthYear:"1391",gender:"مرد",competitionType:"مولتی",rank:"2",prize:"26",totalScore:"27",kills:"12",wins:"1",games:"1",finalStatus:"برنده",notes:"افرین به تو",photo:"assets/gallery/photo_2026-04-21_10-21-09.jpg"},
   {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
   {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
   {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
@@ -100,8 +100,8 @@ searchForm.addEventListener('submit',e=>{
   },1350);
 });
 
-const identityFields=[['نام و نام خانوادگی','name'],['شماره پرونده','caseNumber'],['شماره بازیکن','playerNumber'],['سال تولد','birthYear'],['جنسیت','gender'],['یوآیدی','UID'],['اسم شما در بازی','Namegamecodm'],['نوع مسابقه','competitionType']];
-const statFields=[['رتبه در تورنمنت','rank'],['جایزه','prize'],['امتیاز کل مسابقه','totalScore'],['کیل ها ','kills'],['تعداد مچ های برد','wins'],['تعداد مچ ها','games']];
+const identityFields=[['نام و نام خانوادگی','name'],['شماره پرونده','caseNumber'],['شماره بازیکن','playerNumber'],['سال تولد','birthYear'],['جنسیت','gender'],['نوع مسابقه','competitionType']];
+const statFields=[['رتبه در تورنمنت','rank'],['جایزه','prize'],['امتیاز کل تورنمنت','totalScore'],['کشته‌ها','kills'],['بردها','wins'],['بازی‌ها','games']];
 function safeText(value){return value===undefined||value===null||String(value).trim()===''?'—':String(value);}
 function renderCells(fields,record){return fields.map(([label,key])=>`<div class="report-cell"><span>${label}</span><strong>${escapeHTML(safeText(record[key]))}</strong></div>`).join('');}
 function escapeHTML(str){return String(str).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
