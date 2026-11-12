@@ -5,7 +5,7 @@
  * tournament results system needs a protected server, database, admin login and API.
  */
 const players = [
-  {name:"علی طالبی",playerNumber:"92839297",caseNumber:"9393874",birthYear:"1391",gender:"مرد",competitionType:"مولتی",rank:"2",prize:"26",totalScore:"27",kills:"12",wins:"1",games:"1",finalStatus:"برنده",notes:"افرین به تو",photo:"assets/gallery/photo_2026-04-21_10-21-09.jpg"},
+  {name:"محمد حسین طالبی",playerNumber:"0315194324",caseNumber:"0315194324",birthYear:"1391",gender:"مرد",competitionType:"مولتی",rank:"2",prize:"26",totalScore:"27",kills:"12",wins:"1",games:"1",finalStatus:"برنده",notes:"افرین به تو",photo:"assets/gallery/photo_2026-04-21_10-21-09.jpg"},
   {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
   {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
   {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
