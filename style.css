@@ -21,30 +21,39 @@
 .results-bot-note{border-right-color:#36aeea;line-height:2.2}
 @media(max-width:760px){.brand-mark{width:76px;height:64px}.story-card{padding:20px}.award-placeholder{flex-basis:100%}.award-placeholder img{max-height:220px}}
 
-/* حذف قاب مربعی لوگو و نمایش دایره‌ای */
-.brand-mark {
-    width: 92px;
-    height: 92px;
-    padding: 0;
+
+/* FORCE REMOVE LOGO BOX */
+header.site-header .header-inner a.brand-mark {
+    all: unset !important;
+    display: block !important;
+    width: 92px !important;
+    height: 92px !important;
+    flex: 0 0 92px !important;
+    cursor: pointer;
+    overflow: visible !important;
+    background: none !important;
     border: none !important;
-    border-radius: 50%;
-    background: transparent !important;
+    outline: none !important;
     box-shadow: none !important;
-    overflow: visible;
+    padding: 0 !important;
+    border-radius: 50% !important;
 }
 
-.brand-mark img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: contain;
-    border-radius: 50%;
+header.site-header .header-inner a.brand-mark img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 50% !important;
 }
 
-/* نسخه موبایل */
 @media (max-width: 760px) {
-    .brand-mark {
-        width: 76px;
-        height: 76px;
+    header.site-header .header-inner a.brand-mark {
+        width: 76px !important;
+        height: 76px !important;
+        flex-basis: 76px !important;
     }
 }
