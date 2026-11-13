@@ -5,7 +5,7 @@
  * tournament results system needs a protected server, database, admin login and API.
  */
 const players = [
-  {name:"محمد حسین طالبی",playerNumber:"0315194324",caseNumber:"0315194324",birthYear:"1391",gender:"مرد",competitionType:"مولتی",rank:"1",prize:"10,800 CP",totalScore:"98", UID:"", NameGameCodm:"ƝoX MMD",kills:"36",wins:"1",games:"1",finalStatus:"برنده",notes:"آفرین به سازنده ی این سایت.",photo:"assets/gallery/photo_2026-04-21_10-21-09.jpg"},
+  {name:"محمد حسین طالبی",playerNumber:"0315194324",caseNumber:"0315194324",birthYear:"1391",gender:"مرد",competitionType:"مولتی",rank:"1",prize:"10,800 CP",totalScore:"98", UID:"", NameGameCodm:"ƝoX MMD",kills:"36",wins:"1",games:"1",finalStatus:"بازنده",notes:"آفرین به سازنده ی این سایت.",photo:"assets/gallery/photo_2026-04-21_10-21-09.jpg"},
   {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
   {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
   {name:"",playerNumber:"",caseNumber:"",birthYear:"",gender:"",competitionType:"",rank:"",prize:"",totalScore:"", UID:"", NameGameCodm:"",kills:"",wins:"",games:"",finalStatus:"",notes:"",photo:""},
